@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <title>Meu Portifólio</title>
+</head>
+
+<body>
+
+    <header>
+        <nav id="menu-navegacao">
+            <div class="logo">
+                <h3>Meu Portifólio</h3>
+            </div>
+
+            <div class="lista-menu">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#tecnologias">Tecnologias</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#github">Github</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+                veritatis voluptate illo incidunt natus quos atque pariatur aliquid ducimus dicta quod,
+                nulla nobis eveniet distinctio molestias inventore eligendi delectus dolorum?
+            </p>
+        </section>
+
+        <section id="tecnologias">
+            <h2>Tecnologias</h2>
+            <div class="container-tecnologias">
+                <div class="icone"><img src="src/img/HTML.png" alt="logo HTML"></div>
+                <div class="icone"><img src="src/img/CSS.png" alt="logo CSS"></div>
+                <div class="icone"><img src="src/img/JS.png" alt="logo JS"></div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="container-projetos">
+                <div class="card-img">
+                    <img src="src/img/tv.png" alt="sites">
+                    <p>Sites</p>
+                </div>
+
+                <div class="card-img">
+                    <img src="src/img/computador.png" alt="link-sites">
+                    <p>Lojas</p>
+                </div>
+
+                <div class="card-img">
+                    <img src="src/img/celular.png" alt="link-ecommerce">
+                    <p>Aplicativos</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="github">
+            <h2>Github</h2>
+            <div class="container-github">
+                <div class="sessao-1">
+                    <h4>HTML | CSS</h4>
+                    <a href="https://github.com/allan-kelvin/desafio-dio-css">Desafio DIO CSS</a>
+                    <a href="https://github.com/allan-kelvin/Casamento_Allan_Julia">Site Casamento</a>
+                    <a href="https://github.com/allan-kelvin/Proj-Blog-Games">Blog Games</a>
+                </div>
+
+                <div class="sessao-2">
+                    <h4>JavaScript</h4>
+                    <a href="#">Link para Projeto</a>
+                    <a href="#">Link para Projeto</a>
+                    <a href="#">Link para Projeto</a>
+                </div>
+
+                <div class="sessao-3">
+                    <h4>Angular | NodeJs</h4>
+                    <a href="#">Link para Projeto</a>
+                    <a href="#">Link para Projeto</a>
+                    <a href="#">Link para Projeto</a>
+                </div>
+
+                <div class="sessao-4">
+                    <h4>Java</h4>
+                    <a href="#">Link para Projeto</a>
+                    <a href="#">Link para Projeto</a>
+                    <a href="#">Link para Projeto</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <form class="formulario">
+                <fieldset class="container-formulario">
+                    <div class="container-formulario__sessao1">
+                        <h2>Entre em contato</h2>
+                        <legend>
+                            <br>
+                            <label for="">Nome:</label>
+                            <input type="text" placeholder="Nome completo...">
+                           
+                            <label for="">Email:</label>
+                            <input type="email" placeholder="email@email.com.br">
+            
+                            <label for="">Telefone:</label>
+                           
+                            <input type="tel" placeholder="(99)9999-9999">
+                        </legend>
+                
+                        <div class="checkbox">
+                            <input type="checkbox" id="site" name="site" checked> Site
+                            <input type="checkbox" id="aplicativos" name="aplicativos"> Aplicativo
+                            <input type="checkbox" id="ecommerce" name="ecommerce"> E-commerce
+                        </div>
+                    </div>
+                </fieldset>
+                
+
+                <div class="container-formulario__sessao2">
+                    <br>
+                    <label for="">Descreva seu projeto:</label>
+                    <br>
+                    <textarea name="texto" id="texto" row="6" style="width: 26em"></textarea>
+                    <br>
+                    <button type="submit"class="button">ENVIAR</button>
+                </div>
+
+            </form>
+        </section>
+
+        <footer>
+            <div id="rodape">
+                <p>Seu nome completo</p>
+                <p>Copyright &copy</p>
+                <div class="rodape__icones">
+                    <a href="https://www.linkedin.com/in/allan-kelvin-santos-88a26b1a3/"><img src="src/icons/linkedin.png" alt="linkedin"></a>
+                    <a href="#"><img src="src/icons/Instagram-logo.png" alt="Instagram"></a>
+                    <a href="#"><img src="src/icons/facebook-logo.png" alt="facebook"></a>
+                    <a href="https://github.com/allan-kelvin"><img src="src/icons/github-logo.png" alt="github" id="logo-github"></a>
+                </div>
+            </div>
+        </footer>
+    </header>
+
+</body>
+
+</html>
